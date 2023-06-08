@@ -1,7 +1,7 @@
 
 # User Registration System
 
-This project is a user registration application that uses two databases: PostgreSQL and MongoDB.
+This project is a user registration application using FastAPI.
 
 
 ## Requirements

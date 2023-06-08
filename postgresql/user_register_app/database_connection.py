@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 env = environ.Env()
-environ.Env.read_env("/home/harikrishnan/Desktop/test/test_2/.env")
+environ.Env.read_env("/home/harikrishnan/Desktop/user_registration_test/test_2/.env")
 
 postgresql_connection = env("SQLALCHEMY_DATABASE_URI")
 engine = create_engine(postgresql_connection)
