@@ -35,7 +35,7 @@ Create a .env file and add credentials
 ## Migrate
 This will create a migrations folder
 ```
-alembic init alembic init user_register_app/migrations
+alembic init user_register_app/migrations
 ```
 
 To make changes
